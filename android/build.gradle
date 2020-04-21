@@ -17,7 +17,7 @@ buildscript {
 rootProject.allprojects {
     repositories {
         maven {
-            url "~/Development/Orema/octopus-chat/pandemi-cagri-merkezi/android/sdk/jitsi-maven-repository/raw/master/releases"
+            url "file:/home/mehmet/Development/Orema/octopus-chat/pandemi-cagri-merkezi/android/sdk/jitsi-maven-repository/releases"
         }
         google()
         jcenter()
@@ -45,5 +45,5 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
     // Jitsi Meet
-    implementation ('org.jitsi.react:jitsi-meet-sdk:2.5.1') { transitive = true }
+    implementation ('org.jitsi.react:jitsi-meet-sdk:2.8.0') { transitive = true }
 }
