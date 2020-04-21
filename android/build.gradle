@@ -17,7 +17,7 @@ buildscript {
 rootProject.allprojects {
     repositories {
         maven {
-            url "https://github.com/my07/jitsi-maven-repository/raw/master/releases"
+            url "~/Development/Orema/octopus-chat/pandemi-cagri-merkezi/android/sdk/jitsi-maven-repository/raw/master/releases"
         }
         google()
         jcenter()
